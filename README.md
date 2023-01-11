@@ -6,6 +6,7 @@ Corpus audio de phrases en breton, créé par l'IRISA et l'Office public de la l
 
 Aziliz et Per sont des voix féminine et masculine enregistrées entre 2021 et 2022. Elles disposent de près de 20 heures d'enregistrements à partir de textes de sources variées.
 
+#### Données Aziliz
 | Dossier | Nombre de fichiers | Durée |
 | ------- | ------------------ | -------- |
 | A1      | 7928 | 10:15:01 |
@@ -20,6 +21,7 @@ Aziliz et Per sont des voix féminine et masculine enregistrées entre 2021 et 2
 |A212-text_mozilla|1435|01:10:41|
 |**Total**|**14819**|**17:11:12**|
 
+#### Données Per
 | Dossier | Nombre de fichiers | Durée | Commentaires |
 | ------- | ------------------ | -------- | -- |
 |P1-part1-slowed_tempo|7182|08:50:05|Cette session correspond principalement à du contenu journalistique, adminitratif et technique. Une réduction du tempo de 10% a été appliquée.|

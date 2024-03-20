@@ -37,34 +37,7 @@ Aziliz et Per sont des voix féminine et masculine enregistrées entre 2021 et 2
 |P212-text_mozilla|1435|01:04:41||
 |**Total**|**15371**|**16:28:14**||
 
-### Voix Rozenn et Loeiz
-Rozenn et Loeiz sont des voix féminine et masculine enregistrées en 2022. Elles disposent de près de 3 heures d'enregistrement.
-#### Données Rozenn
-| Nombre de *diphone covering sets* | Nombre de fichiers | Durée |
-| ------- | ------------------ | -------- |
-|7 (cov-1 to cov-7)|2790|02:48:53|
-#### Données Loeiz
-| Nombre de *diphone covering sets* | Nombre de fichiers | Durée |
-| ------- | ------------------ | -------- |
-|7 (cov-1 to cov-7)|2790|03:05:42|
 
-Les textes sont issus du corpus du premier enregistrement en suivant les critères de selection suivants :
-- exclusion des longues phrases (celles qui sont supérieures à 10 secondes)
-- exclusion des séries suivantes : *French*, *Non speech sounds*, *specials*, *dictation* et *invented words*.
-- selection des 7 premiers subsets définis en utilisant l'outil de réduction de corpus *sc-solver*, chaque subset couvrant un diphone. L'accentuation n'est pas prise en compte.
-
-#### Distribution des phrases en fonction de la source du texte
-|Préfixe du fichier|Catégorie|Nombre de phrases|
-| --- | --- | --- |
-|1..|Journalistic sentences|1039|
-|201|Dialog (1/3 from books, 2/3 from Common-Voice)|423|
-|203|Tales|108|
-|204|Poems|115|
-|205|Recipes|28|
-|207|Forenames, Towns|141|
-|208|Letters_Phonemes_Symbols|8|
-|211|Rare_diphones|597|
-|212|Text (1/4 from books, 3/4 from Common-Voice)|331|
 
 
 
@@ -87,7 +60,6 @@ Les textes sont issus du corpus du premier enregistrement en suivant les critèr
 
 A correspond à aziliz  
 P correspond à per  
-L correspond à loeiz  
-R correspond à rozenn
+
 
 

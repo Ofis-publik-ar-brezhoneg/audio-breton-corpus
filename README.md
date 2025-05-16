@@ -1,13 +1,13 @@
-# Corpus audio breton
-Corpus audio de phrases en breton, créé par l'IRISA et l'Office public de la langue bretonne dans le cadre du projet de synthèse vocale du breton.
+# Audio korpus in breton
+Audio corpus of Breton sentences, created by IRISA and the OPAB (Ofis Publik Ar Brezhoneg) as part of the Breton speech synthesis project.
 
-## Description du corpus
-### Voix Aziliz et Per
+## Description of the corpus
+### Aziliz and Per's voices
 
-Aziliz et Per sont des voix féminine et masculine enregistrées entre 2021 et 2022. Elles disposent de près de 20 heures d'enregistrements à partir de textes de sources variées.
+Aziliz and Per are female and male voices recorded between 2021 and 2022. They comprise nearly 20 hours of recordings based on texts from various sources.
 
-#### Données Aziliz
-| Dossier | Nombre de fichiers | Durée |
+#### Aziliz Data
+| File | Number of files | Duration |
 | ------- | ------------------ | -------- |
 | A1      | 7928 | 10:15:01 |
 |A201-dialog_documents|632|01:08:03|
@@ -21,17 +21,17 @@ Aziliz et Per sont des voix féminine et masculine enregistrées entre 2021 et 2
 |A212-text_mozilla|1435|01:10:41|
 |**Total**|**14819**|**17:11:12**|
 
-#### Données Per
-| Dossier | Nombre de fichiers | Durée | Commentaires |
+#### Per Data
+| File | Number of files | Duration | Comments |
 | ------- | ------------------ | -------- | -- |
-|P1-part1-slowed_tempo|7182|08:50:05|Cette session correspond principalement à du contenu journalistique, adminitratif et technique. Une réduction du tempo de 10% a été appliquée.|
+|P1-part1-slowed_tempo|7182|08:50:05|This session primarily consists of journalistic, administrative, and technical content. A 10% reduction in tempo has been applied.|
 |P1-part2-original_tempo|746|00:52:03||
 |P201-dialog_documents|634|01:12:18||
 |P201-dialog_mozilla|1777|01:26:45||
 |P203-tales|556|00:55:55||
 |P204-poems|529|00:41:18||
 |P205-recipes|131|00:08:49||
-|P207-proper_names|1875|00:47:45|Per a été enregistré deux fois en lisant des noms de ville à voix haute, mais avec des intonations différentes|
+|P207-proper_names|1875|00:47:45|Per was recorded twice reading city names aloud, but with different intonations.|
 |P208-letters_numbers|54|00:01:25||
 |P212-text_documents|452|00:27:10||
 |P212-text_mozilla|1435|01:04:41||
@@ -39,27 +39,24 @@ Aziliz et Per sont des voix féminine et masculine enregistrées entre 2021 et 2
 
 
 
+## `.tsv` Data Files
 
+Each folder containing `.wav` files for a speaker has a corresponding `.tsv` file in the `sentences` folder, with the following headers:
 
-## Fichiers de données `.tsv`
+- Field 0: Name of the associated `.wav` file
+- Field 1: Normalized transcription
+- Field 2: Text transcription
+- Field 3: Phonetic transcription
+- Field 4: `1` if the audio file has already been created, `0` if the audio file was planned but was not created (the other fields should not be considered, or are empty)
+- Field 5: `1` if normalization has been validated, `0` if normalization has NOT been validated (the normalization and phonetization fields should not be considered, or are empty). - Field 6: `1` if a manual phonetic transcription is available, `0` otherwise
+- Field 7: Source text
+- Field 8: Recording help (optional)
+- Field 9: Number of layers for the *diphone covering* (only for the more recent voices "loeiz" and "rozenn")
 
-À chaque dossier contenant des fichier `.wav` pour un locuteur ou une locutrice correspond un fichier `.tsv` dans le dossier `sentences`, avec les entêtes suivantes :
+## Audio file naming
 
-- champ 0 : nom du fichier `.wav` associé
-- champ 1 : transcription normalisée
-- champ 2 : transcription textuelle
-- champ 3 : transcription phonétique
-- champ 4 : `1` si le fichier audio a déjà été créé, `0` si le fichier audio était prévu mais n'a pas été créé (les autres champs ne doivent pas être pris en compte, ou sont vides)
-- champ 5 : `1` si la normalisation a été validée, `0` si la normalisation n'a PAS été validée (les champs normalization et phonetization ne doivent pas être pris en compte, ou ils sont vides).
-- champ 6 : `1` si une transcription phonétique manuelle est disponible, `0` sinon
-- champ 7 : texte source
-- champ 8 : aide à l'enregistrement (optionnel)
-- champ 9 : nombre de couches pour le *diphone covering* (seulement pour les voix plus récentes "loeiz" et "rozenn")
-
-## Nommage des fichers audio
-
-A correspond à aziliz  
-P correspond à per  
+A corresponds to Aziliz
+P corresponds to Per
 
 
 
